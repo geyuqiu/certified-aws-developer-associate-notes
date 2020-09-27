@@ -109,3 +109,8 @@ What if you want to update each deployment
 - Each EC2 machine resolves dependencies (SLOW)
 - Optimization in case of long deployments:
   - Package dependencies with source code to improve deployment performance and speed
+
+#### EB summary
+
+* In some cases, it's better to externalize your RDS database so that it won't get deleted when you delete your elastic beanstalk enviornment
+* Elastic Beanstalk relies on CloudFormation

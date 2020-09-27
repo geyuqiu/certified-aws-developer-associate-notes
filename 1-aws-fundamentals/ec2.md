@@ -1,12 +1,5 @@
 # EC2: Virtual Machines
 
-- [EC2 User Data](#ec2-user-data)
-- [EC2 Meta Data](#ec2-meta-data)
-- [EC2 Instance Launch Types](#ec2-instance-launch-types)
-- [EC2 Pricing](#ec2-pricing)
-- [AMIs](#AMIs)
-- [EC2 Instances Overview](#ec2-instances-overview)
-
 By default, your EC2 machine comes with:
 * A private IP for the internal AWS Network
 * A public IP for the WWW

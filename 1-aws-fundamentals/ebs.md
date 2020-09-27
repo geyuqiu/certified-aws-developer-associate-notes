@@ -100,8 +100,6 @@ EBS Snapshots
 * Migrating an EBS volume across AZ means first backing it up (snapshot), then recreating it in the other AZ
 * EBS backups use IO and you shouldn’t run them while your application is handling a lot of traffic
 * Root EBS Volumes of instances get terminated by default if the EC2 instance gets terminated. (You can disable that)
-* In some cases, it's better to externalize your RDS database so that it won't get deleted when you delete your elastic beanstalk enviornment
-* Elastic Beanstalk relies on CloudFormation
 
 #### EBS Volume Types - Use cases 
 
